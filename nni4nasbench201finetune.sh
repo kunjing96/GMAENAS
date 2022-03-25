@@ -1,0 +1,1 @@
+MKL_THREADING_LAYER=GNU MKL_SERVICE_FORCE_INTEL=1 CUDA_VISIBLE_DEVICES=$(($RANDOM % 4)) python finetune.py --space nasbench201 --save finetune_nasbench201_nni --param nni --model_state_dict model.pt --finetune_train_samples 156 --finetune_batch_size 16
