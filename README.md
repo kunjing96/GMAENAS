@@ -76,7 +76,7 @@ python train.py --arch [your architecture] [...]
 
 | Script | description |
 | ------ | ----------- |
-| nni4nasbench<font color="#ff0000">xxx</font><font color="#00ff00">yyy</font>.py/.sh | search hyper-params for <font color="#00ff00">yyy</font> (including pre-training, fine-tuning, and training from scratch) on NAS-Bench-<font color="#ff0000">xxx</font>. Note: Using the same hyper-params for DARTS space as the NAS-Bench-301. |
+| nni4nasbenchxxxyyy.sh/.py | search hyper-params for yyy (including pre-training, fine-tuning, and training from scratch) on NAS-Bench-xxx. Note: Using the same hyper-params for DARTS space as the NAS-Bench-301. |
 | search<font color="#ff0000">xxx</font>.sh | search on NAS-Bench-<font color="#ff0000">xxx</font>.|
 | pretrain_task.sh | Ablation study for choice of pre-training methods.|
 | masking_ratio.sh | Ablation study for choice of masking ratios.|
@@ -108,7 +108,7 @@ python train.py --arch [your architecture] [...]
 
 <p align="center">
     <img src="./figs/GMAENAS_BO_normal.png" width="47%"/>
-    <img src="./figs/GMAENAS_Bo_reduction.png" width="47%"/>
+    <img src="./figs/GMAENAS_BO_reduction.png" width="47%"/>
 </p>
 <p align="center">
     The architecture discovered by GMAE-NAS (BO).
@@ -117,5 +117,5 @@ python train.py --arch [your architecture] [...]
 
 | Architecture | Test Error (%) | #Params (M) | Search Cost (GPU days) | Search Type |
 | ------------ | -------------- | ----------- | ---------------------- | ----------- |
-| GMAE-NAS (AE)| 2.56 $\pm$ 0.04  | 4.0         |     3.3                |AE+neural predictor|
-| GMAE-NAS (BO)| 2.50 $\pm$ 0.03  | 3.8         |     3.3                |BO+neural predictor|
+| GMAE-NAS (AE)| 2.56 +- 0.04  | 4.0         |     3.3                |AE+neural predictor|
+| GMAE-NAS (BO)| 2.50 +- 0.03  | 3.8         |     3.3                |BO+neural predictor|
