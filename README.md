@@ -117,5 +117,5 @@ python train.py --arch [your architecture] [...]
 
 | Architecture | Test Error (%) | #Params (M) | Search Cost (GPU days) | Search Type |
 | ------------ | -------------- | ----------- | ---------------------- | ----------- |
-| GMAE-NAS (AE)| 2.56$\pm$0.04  | 4.0         |     3.3                |AE+neural predictor|
-| GMAE-NAS (BO)| 2.50$\pm$0.03  | 3.8         |     3.3                |BO+neural predictor|
+| GMAE-NAS (AE)| 2.56 $\pm$ 0.04  | 4.0         |     3.3                |AE+neural predictor|
+| GMAE-NAS (BO)| 2.50 $\pm$ 0.03  | 3.8         |     3.3                |BO+neural predictor|
