@@ -1,0 +1,22 @@
+graphviz==0.19.1
+hyperopt==0.2.5
+nas-bench-201==2.1
+-e git+https://github.com/google-research/nasbench.git@b94247037ee470418a3e56dcb83814e9be83f3a8#egg=nasbench
+nasbench301==0.3
+-e git+ssh://git@github.com/automl/NASLib.git@6506a700f4d4764f9c58c918efb6769967b55669#egg=naslib
+networkx==2.6.2
+ngboost==0.3.11
+nni==2.4
+numpy==1.19.5
+pybnn==0.0.5
+timm==0.5.4
+toml==0.10.2
+tomli==1.2.2
+torch==1.9.0
+torch-cluster @ file:///home/jingkun/GCL4NASPredictor/torch_cluster-1.5.9-cp38-cp38-linux_x86_64.whl
+torch-geometric==1.7.2
+torch-scatter @ file:///home/jingkun/GCL4NASPredictor/torch_scatter-2.0.8-cp38-cp38-linux_x86_64.whl
+torch-sparse @ file:///home/jingkun/GCL4NASPredictor/torch_sparse-0.6.12-cp38-cp38-linux_x86_64.whl
+torchvision==0.10.0
+tqdm==4.61.1
+xgboost==1.4.2
