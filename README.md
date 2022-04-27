@@ -1,7 +1,7 @@
 # Graph Masked Autoencoder Enhanced Predictor for Neural Architecture Search
 
 This repository is the official implementation of Graph Masked Autoencoder Enhanced Predictor for Neural Architecture Search.
-The supplementary materials is available <a href="GMAENAS.pdf">here</a>.
+The supplementary materials is available <a href="paper/GMAENAS.pdf">here</a>.
 
 <p align="center">
     <img src="./figs/OVERVIEW.png" width="100%"/>
